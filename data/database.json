@@ -1,0 +1,455 @@
+{
+  "settings": {
+    "schoolName": "Cathedral High School",
+    "schoolMotto": "Honor, Truth, Virtue",
+    "schoolDomain": "cathedral.edu",
+    "requireSchoolEmail": false,
+    "facultyVerificationCode": "CHS-2026",
+    "holdingPeriodDays": 15,
+    "collectionPointName": "P.T. Department",
+    "collectionPointLocation": "P.T. Department, School Ground",
+    "collectionHours": "Mon - Fri: 12:30 PM - 1:30 PM (Recess) & 3:30 PM - 4:15 PM (School Ground)",
+    "availableClasses": [
+      "Grade 9A",
+      "Grade 9B",
+      "Grade 10A",
+      "Grade 10B",
+      "Grade 11A",
+      "Grade 11B",
+      "Grade 12A",
+      "Grade 12B"
+    ],
+    "categories": [
+      "Watches",
+      "Pouches",
+      "Bags",
+      "Water Bottles",
+      "Other"
+    ],
+    "donationApprovalRequired": true,
+    "allowAlumniDonations": true
+  },
+  "users": [
+    {
+      "id": "usr-teacher-1",
+      "email": "s.jenkins@cathedral.edu",
+      "name": "Ms. Sarah Jenkins",
+      "role": "teacher",
+      "password": "Jenkins#PT26",
+      "department": "Senior P.T. Instructor & Sports Master"
+    },
+    {
+      "id": "usr-teacher-2",
+      "email": "d.carter@cathedral.edu",
+      "name": "Mr. David Carter",
+      "role": "teacher",
+      "password": "Carter!Sci88",
+      "department": "Senior Physics & Discipline In-Charge"
+    },
+    {
+      "id": "usr-teacher-3",
+      "email": "r.thorne@cathedral.edu",
+      "name": "Mrs. Rebecca Thorne",
+      "role": "teacher",
+      "password": "Thorne$Bio26",
+      "department": "Life Sciences & Student Welfare"
+    },
+    {
+      "id": "usr-student-1",
+      "email": "jaedonpj13@gmail.com",
+      "name": "Jaedon P.",
+      "role": "student",
+      "currentClass": "Grade 10A",
+      "isVerifiedStudent": true
+    },
+    {
+      "id": "usr-student-2",
+      "email": "ananya.rao@gmail.com",
+      "name": "Ananya Rao",
+      "role": "student",
+      "currentClass": "Grade 9B",
+      "isVerifiedStudent": true
+    },
+    {
+      "id": "usr-student-3",
+      "email": "liam.chen@cathedral.edu",
+      "name": "Liam Chen",
+      "role": "student",
+      "currentClass": "Grade 12A",
+      "isVerifiedStudent": true
+    },
+    {
+      "id": "usr-teacher-1793195017602",
+      "email": "j.smith@cathedral.edu",
+      "name": "Mr. Johnathan Smith",
+      "role": "teacher",
+      "password": "Smith#Physics26",
+      "department": "High School Physics"
+    },
+    {
+      "id": "usr-1793195027029",
+      "email": "alex.student@gmail.com",
+      "name": "Alex Student",
+      "role": "student",
+      "currentClass": "Grade 10A",
+      "isVerifiedStudent": true
+    }
+  ],
+  "foundItems": [
+    {
+      "id": "item-101",
+      "name": "Silver Casio Vintage Digital Watch",
+      "category": "Watches",
+      "photos": [
+        "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Classic silver stainless steel digital watch with stopwatch display. In working condition.",
+      "dateFound": "2026-10-25",
+      "locationFound": "School Football Ground bleachers",
+      "storageLocation": "P.T. Department Office (School Ground), Locker Box #4",
+      "privateIdentifyingDetails": "Small scratch on right bottom bezel; alarm set for 07:15 AM; strap link clasp has small etched star symbol on the back.",
+      "reportedByTeacherEmail": "s.jenkins@cathedral.edu",
+      "reportedByTeacherName": "Ms. Sarah Jenkins",
+      "status": "Claim Pending",
+      "createdAt": "2026-10-25T10:15:00Z",
+      "updatedAt": "2026-10-27T14:20:00Z"
+    },
+    {
+      "id": "item-102",
+      "name": "Navy Blue Canvas Zip Pouch",
+      "category": "Pouches",
+      "photos": [
+        "https://images.unsplash.com/photo-1585336261026-681b671a5c68?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Dark blue zipper pencil pouch with two side compartments.",
+      "dateFound": "2026-10-22",
+      "locationFound": "Science Lab 204, 3rd bench",
+      "storageLocation": "P.T. Department (School Ground), Storage Rack A",
+      "privateIdentifyingDetails": "Contains three Staedtler 0.5mm lead tubes, one silver metal ruler with initials \"ALM\" scratched on the metric side.",
+      "reportedByTeacherEmail": "d.carter@cathedral.edu",
+      "reportedByTeacherName": "Mr. David Carter",
+      "status": "Stored / Available",
+      "createdAt": "2026-10-22T11:30:00Z",
+      "updatedAt": "2026-10-22T11:30:00Z"
+    },
+    {
+      "id": "item-103",
+      "name": "Black Nike Sport Duffel Bag",
+      "category": "Bags",
+      "photos": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Black medium duffel bag with white swoosh, dual handle and shoulder strap.",
+      "dateFound": "2026-10-20",
+      "locationFound": "School Ground Pavilion Bench",
+      "storageLocation": "P.T. Department Office (School Ground), Cupboard C",
+      "privateIdentifyingDetails": "Inside side zip contains a pair of blue training goggles and a locker lock with code combination 14-28-06.",
+      "reportedByTeacherEmail": "s.jenkins@cathedral.edu",
+      "reportedByTeacherName": "Ms. Sarah Jenkins",
+      "status": "Stored / Available",
+      "createdAt": "2026-10-20T16:00:00Z",
+      "updatedAt": "2026-10-20T16:00:00Z"
+    },
+    {
+      "id": "item-104",
+      "name": "Olive Green Hydro Flask 32oz",
+      "category": "Water Bottles",
+      "photos": [
+        "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Wide mouth 32oz insulated bottle with flex cap.",
+      "dateFound": "2026-10-10",
+      "locationFound": "Cricket Pitch Boundary, School Ground",
+      "storageLocation": "P.T. Department Unclaimed Shelf #2 (School Ground)",
+      "privateIdentifyingDetails": "Circular NASA sticker on side; dent on bottom edge from dropping; blue paracord loop on handle.",
+      "reportedByTeacherEmail": "s.jenkins@cathedral.edu",
+      "reportedByTeacherName": "Ms. Sarah Jenkins",
+      "status": "Unclaimed (15+ Days)",
+      "createdAt": "2026-10-10T09:00:00Z",
+      "updatedAt": "2026-10-25T09:00:00Z"
+    },
+    {
+      "id": "item-105",
+      "name": "Texas Instruments TI-84 Plus CE Calculator",
+      "category": "Other",
+      "customCategory": "Electronics & Calculators",
+      "photos": [
+        "https://images.unsplash.com/photo-1594980596870-8aa52a78d8cd?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Blue graphing calculator with slide cover.",
+      "dateFound": "2026-10-26",
+      "locationFound": "School Library Reading Room",
+      "storageLocation": "P.T. Department Office (School Ground), Secure Drawer A",
+      "privateIdentifyingDetails": "Slide case has yellow smiley sticker; battery door interior has taped note with AP Chem formula.",
+      "reportedByTeacherEmail": "d.carter@cathedral.edu",
+      "reportedByTeacherName": "Mr. David Carter",
+      "status": "Stored / Available",
+      "createdAt": "2026-10-26T15:20:00Z",
+      "updatedAt": "2026-10-26T15:20:00Z"
+    }
+  ],
+  "lostReports": [
+    {
+      "id": "rep-201",
+      "studentId": "usr-student-2",
+      "studentName": "Ananya Rao",
+      "studentEmail": "ananya.rao@gmail.com",
+      "studentClass": "Grade 9B",
+      "itemName": "Silver Digital Casio Watch",
+      "category": "Watches",
+      "description": "Lost my grandfather vintage style Casio digital watch on the football ground bleachers during P.T. hour.",
+      "dateLost": "2026-10-25",
+      "locationLost": "School Football Ground bleachers",
+      "distinctiveFeatures": "Has small scratch near the 2 oclock position, alarm set for early morning.",
+      "status": "Potential Match Found",
+      "createdAt": "2026-10-26T08:30:00Z",
+      "updatedAt": "2026-10-26T08:30:00Z"
+    }
+  ],
+  "claims": [
+    {
+      "id": "clm-1793195042990",
+      "referenceCode": "CLM-2026-7871",
+      "foundItemId": "item-101",
+      "foundItemName": "Silver Casio Vintage Digital Watch",
+      "studentId": "usr-1793195027029",
+      "studentName": "Alex Student",
+      "studentEmail": "alex.student@gmail.com",
+      "studentClass": "Grade 10A",
+      "description": "Lost on school ground bleachers",
+      "privateDetailsEvidence": "Has small scratch near crown and initials ALM engraved",
+      "photoProof": "",
+      "contactNumber": "555-1234",
+      "status": "Pending Review",
+      "evidenceHistory": [
+        {
+          "sender": "student",
+          "message": "Has small scratch near crown and initials ALM engraved",
+          "timestamp": "2026-10-28T13:44:02.990Z"
+        }
+      ],
+      "createdAt": "2026-10-28T13:44:02.990Z",
+      "updatedAt": "2026-10-28T13:44:02.990Z"
+    },
+    {
+      "id": "clm-301",
+      "referenceCode": "CLM-2026-1049",
+      "foundItemId": "item-101",
+      "foundItemName": "Silver Casio Vintage Digital Watch",
+      "studentId": "usr-student-2",
+      "studentName": "Ananya Rao",
+      "studentEmail": "ananya.rao@gmail.com",
+      "studentClass": "Grade 9B",
+      "description": "I lost this watch right after football practice on the school ground.",
+      "privateDetailsEvidence": "There is a scratch on the bottom right corner of the silver rim. The strap buckle has a faint hand-etched star mark my brother made, and the daily alarm goes off at 7:15 AM.",
+      "contactNumber": "555-0192",
+      "status": "Pending Review",
+      "evidenceHistory": [
+        {
+          "sender": "student",
+          "message": "Submitted initial claim with proof of engraved star and 7:15 AM alarm.",
+          "timestamp": "2026-10-27T14:20:00Z"
+        }
+      ],
+      "createdAt": "2026-10-27T14:20:00Z",
+      "updatedAt": "2026-10-27T14:20:00Z"
+    }
+  ],
+  "unclaimedRequests": [
+    {
+      "id": "uncl-401",
+      "referenceCode": "RED-2026-0814",
+      "foundItemId": "item-104",
+      "foundItemName": "Olive Green Hydro Flask 32oz",
+      "studentId": "usr-student-1",
+      "studentName": "Jaedon P.",
+      "studentEmail": "jaedonpj13@gmail.com",
+      "studentClass": "Grade 10A",
+      "reason": "Our relay athletics squad needs a shared backup water flask during school ground training.",
+      "status": "Pending Review",
+      "createdAt": "2026-10-27T11:00:00Z"
+    }
+  ],
+  "donations": [
+    {
+      "id": "don-501",
+      "title": "AP Calculus BC & AB Official Prep Guide (2025 Edition)",
+      "category": "Books",
+      "photos": [
+        "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Comprehensive review guide with 4 full-length practice tests. Clean pages, no pencil marks.",
+      "condition": "Like New",
+      "donorType": "Staff",
+      "donorName": "Mr. David Carter",
+      "donorEmail": "d.carter@cathedral.edu",
+      "isAnonymous": false,
+      "status": "Available",
+      "eligibilityRequirements": "Open to Grade 10-12 students taking advanced mathematics.",
+      "collectionInstructions": "Collect from P.T. Department Office, School Ground with Student ID.",
+      "createdAt": "2026-10-23T10:00:00Z",
+      "updatedAt": "2026-10-23T10:00:00Z"
+    },
+    {
+      "id": "don-502",
+      "title": "Cathedral Varsity P.T. Track Jacket (Medium)",
+      "category": "Uniforms & PE Gear",
+      "photos": [
+        "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Official Cathedral High School navy blue and gold lightweight water-resistant running jacket. Washed and sanitized.",
+      "condition": "Like New",
+      "donorType": "Former Student / Alumni",
+      "donorName": "Cathedral Alumni Class of 2024",
+      "donorEmail": "alumni@cathedral.edu",
+      "isAnonymous": true,
+      "status": "Available",
+      "eligibilityRequirements": "Priority given to student athletes or students in need of school ground winter gear.",
+      "collectionInstructions": "Pick up from P.T. Department, School Ground.",
+      "createdAt": "2026-10-21T13:30:00Z",
+      "updatedAt": "2026-10-21T13:30:00Z"
+    },
+    {
+      "id": "don-503",
+      "title": "Art Studio Pro Drawing Set (12 Graphite Pencils + Blending Stumps)",
+      "category": "Stationery",
+      "photos": [
+        "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Complete metal tin set with 2H through 8B pencils, eraser, and blending tortillons.",
+      "condition": "Brand New",
+      "donorType": "Student",
+      "donorName": "Liam Chen (Grade 12)",
+      "donorEmail": "liam.chen@cathedral.edu",
+      "isAnonymous": false,
+      "status": "Available",
+      "eligibilityRequirements": "Any student taking Art or Technical Drawing.",
+      "collectionInstructions": "Collect at P.T. Department Office, School Ground during recess.",
+      "createdAt": "2026-10-24T09:15:00Z",
+      "updatedAt": "2026-10-24T09:15:00Z"
+    }
+  ],
+  "donationRequests": [
+    {
+      "id": "req-601",
+      "referenceCode": "DON-2026-9021",
+      "donationId": "don-501",
+      "donationTitle": "AP Calculus BC & AB Official Prep Guide (2025 Edition)",
+      "studentId": "usr-student-1",
+      "studentName": "Jaedon P.",
+      "studentEmail": "jaedonpj13@gmail.com",
+      "studentClass": "Grade 10A",
+      "reason": "Preparing early for advanced math placement exam next semester.",
+      "status": "Pending",
+      "createdAt": "2026-10-27T16:45:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1793195042990-osod",
+      "recipientEmail": "alex.student@gmail.com",
+      "title": "Ownership Claim Received",
+      "message": "Your claim for \"Silver Casio Vintage Digital Watch\" has been recorded. Reference Code: CLM-2026-7871. You will be notified once a teacher reviews your evidence.",
+      "type": "info",
+      "linkTarget": "claims",
+      "isRead": false,
+      "createdAt": "2026-10-28T13:44:02.990Z"
+    },
+    {
+      "id": "notif-1793195042990-m9sy",
+      "recipientEmail": "s.jenkins@cathedral.edu",
+      "title": "🔔 Student Claims Item You Logged!",
+      "message": "Student Alex Student (Grade 10A) believes \"Silver Casio Vintage Digital Watch\" (Ref: CLM-2026-7871) is their lost property. Please check their evidence against your stored private markings.",
+      "type": "alert",
+      "linkTarget": "claims",
+      "isRead": false,
+      "createdAt": "2026-10-28T13:44:02.990Z"
+    },
+    {
+      "id": "notif-1793195042990-xzwc",
+      "recipientEmail": "teacher-all",
+      "title": "🔔 Student Claims Found Item!",
+      "message": "Attention Faculty: Student Alex Student (Grade 10A) has identified and claimed \"Silver Casio Vintage Digital Watch\" (Ref: CLM-2026-7871) as their lost belonging. Detailed ownership evidence has been submitted for your review.",
+      "type": "alert",
+      "linkTarget": "claims",
+      "isRead": false,
+      "createdAt": "2026-10-28T13:44:02.990Z"
+    },
+    {
+      "id": "notif-1",
+      "recipientEmail": "jaedonpj13@gmail.com",
+      "title": "Donation Request Submitted",
+      "message": "Your request for \"AP Calculus BC Official Prep Guide\" was received and is pending teacher approval.",
+      "type": "info",
+      "linkTarget": "donations",
+      "isRead": false,
+      "createdAt": "2026-10-27T16:45:00Z"
+    },
+    {
+      "id": "notif-2",
+      "recipientEmail": "ananya.rao@gmail.com",
+      "title": "Ownership Claim Under Review",
+      "message": "Your claim for Silver Casio Vintage Digital Watch (Ref #CLM-2026-1049) is being reviewed by Ms. Sarah Jenkins at the P.T. Department.",
+      "type": "info",
+      "linkTarget": "claims",
+      "isRead": false,
+      "createdAt": "2026-10-27T14:20:00Z"
+    },
+    {
+      "id": "notif-3",
+      "recipientEmail": "teacher-all",
+      "title": "Item Reached 15-Day Unclaimed Threshold",
+      "message": "Olive Green Hydro Flask 32oz (ID: item-104) has reached 18 days in P.T. Department custody. Ready for unclaimed review.",
+      "type": "alert",
+      "linkTarget": "pe-desk",
+      "isRead": false,
+      "createdAt": "2026-10-25T09:00:00Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud-1793195042990-6mbq",
+      "action": "Claim Submitted",
+      "actorEmail": "alex.student@gmail.com",
+      "actorName": "Alex Student",
+      "actorRole": "student",
+      "targetType": "claim",
+      "targetId": "clm-1793195042990",
+      "details": "Submitted claim CLM-2026-7871 for item \"Silver Casio Vintage Digital Watch\".",
+      "timestamp": "2026-10-28T13:44:02.990Z"
+    },
+    {
+      "id": "aud-1793195017604-pe3g",
+      "action": "Faculty Account Registered",
+      "actorEmail": "j.smith@cathedral.edu",
+      "actorName": "Mr. Johnathan Smith",
+      "actorRole": "teacher",
+      "targetType": "settings",
+      "targetId": "usr-teacher-1793195017602",
+      "details": "New teacher account created for Mr. Johnathan Smith (High School Physics).",
+      "timestamp": "2026-10-28T13:43:37.604Z"
+    },
+    {
+      "id": "aud-1",
+      "action": "System Initialized",
+      "actorEmail": "system@cathedral.edu",
+      "actorName": "System Core",
+      "actorRole": "admin",
+      "targetType": "settings",
+      "targetId": "system",
+      "details": "Cathedral High School Lost & Found, P.T. Department and Donations repository initialized.",
+      "timestamp": "2026-10-10T08:00:00Z"
+    },
+    {
+      "id": "aud-2",
+      "action": "Found Item Uploaded",
+      "actorEmail": "s.jenkins@cathedral.edu",
+      "actorName": "Ms. Sarah Jenkins",
+      "actorRole": "teacher",
+      "targetType": "found_item",
+      "targetId": "item-101",
+      "details": "Uploaded Silver Casio Vintage Digital Watch found on school football ground with private markings.",
+      "timestamp": "2026-10-25T10:15:00Z"
+    }
+  ]
+}

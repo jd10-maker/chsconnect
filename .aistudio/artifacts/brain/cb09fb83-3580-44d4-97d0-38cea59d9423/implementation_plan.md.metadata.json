@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan to update Cathedral High School Lost & Found with:\n1. Removal of all displayed faculty codes and sample credential autofill buttons, replacing them with example placeholders (chs@gmail.com, faculty code 1234).\n2. Instagram-inspired mobile experience with a full-screen card carousel swiping left and right between items, bottom navigation bar, and sticky mobile header while preserving desktop layout.\n3. Complete removal of 'Report Lost Item' from student navigation, views, and workflows (only faculty can log items).\n4. Streamlined claim modal without 'Additional Notes' and with strictly mandatory photo proof.\n5. Dual-layer AI image detection (client metadata check + server-side Gemini Vision verification) to detect and reject synthetic or AI-generated photos.",
+  "updatedAt":  "2026-10-28T13:59:31.835755126Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

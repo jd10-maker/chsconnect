@@ -1,0 +1,6 @@
+{
+  "name": "Cathedral High School Lost & Found and Donations",
+  "description": "Comprehensive lost & found management, ownership verification, 15-day unclaimed item redistribution, and donations system for Cathedral High School.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
